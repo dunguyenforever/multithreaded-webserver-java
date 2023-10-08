@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebServer Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 5% 0;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multi-threaded Web Server Test Page</h1>
+    <p>This is a pure HTML request.</p>
+
+    <h2>Pure Image Request</h2>
+    <a href="image1.jpg" target="_blank">Click here to view the test image directly.</a>
+
+    <h2>Pure GIF Request</h2>
+    <a href="image3.gif" target="_blank">Click here to view the test GIF directly.</a>
+
+    <h2>HTML with Embedded Image</h2>
+    <a href='https://www.uhdpaper.com/2023/04/clive-rosfield-jill-warrick-4k-251l.html?m=0'><img src='https://lh3.googleusercontent.com/blogger_img_proxy/ALY8t1s2CCpfa7MGJgsPNIeQcpA7_sD3ckIr4ugrnS4YP7mK-DqzTWDq3m_VrLi0q35B1-g2nDLP0qmjyT6_q3jDOtCTa7d5-CcGAKeFPOy3FJsGUd0DrRa4A3ULHwLU7ROPHdySNnHuhlEku1wnqu8_m-ISZYW35YjnHVJg=w919-h516-p-k-no-nu'/></a> 
+    
+
+    <h2>Request for Non-Existing File</h2>
+    <a href="nonexistent.html" target="_blank">Click here to try accessing a non-existing file.</a>
+
+    <h2>Request for Missing Text File</h2>
+    <a href="missing.txt" target="_blank">Click here to view the content of the missing text file (from FTP server).</a>
+
+</body>
+</html>
